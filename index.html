@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Saurabh Ginnare</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <div id="header">
+        <img src="PortfolioImages/saurabhginnare1.jpg" alt="">
+        <div class="container">
+            <nav>
+                <h1 class="logo1"><span class="Namelogo">S</span>AURABH.</h1>
+                <!-- <img src="PortfolioImages/logo.png" class=" logo"> -->
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#secvices">Services</a></li>
+                    <li> <a href="#portfolio">Portfolio</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                    <i class="ri-close-fill" onclick="closemenu()"></i>
+                </ul>
+                <i class="ri-menu-3-fill" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-text">
+            <p>Software Engineer</p>
+            <h1>Hello, I'm <span>Saurabh</span><br>Ginnare From India</h1>
+        </div>
+        </div>
+    </div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="PortfolioImages/PhotoRoom-20220919_161508.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subT">About Me</h1>
+                <p>Hello my name is saurabh ginnare i am from bhopal mp. and I am a sotware developer I have developed some website on real wold. </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming Laguages</span><br>Java,C++,basic_Python,C</li>
+                        <li><span>Web Development</span><br>HTML,CSS,Javascrip</li>
+                        <li><span>Data Base developer</span><br>SQL,MySQL,Oracle</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Data base Developer</span><br>Work on different databases</li>
+                        <li><span>Web Development</span><br>some beautyful website. check on work</li>
+                    </ul>
+                </div>
+                <div class="tab-contents " id="education">
+                    <ul>
+                        <li><span>2018</span><br>82% in 10th from M.P board</li>
+                        <li><span>2020</span><br>80% in 12th from M.P board</li>
+                        <li><span>2020 - 2024</span><br>Running B.tech in CSE</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<!-- services section -->
+<div id="services">
+    <div class="container">
+        <h1 class="subT">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="ri-code-s-slash-fill"></i>
+                <h2> Java Developer </h2>
+                <p>A Java Developeris a Computer Software Programmer who uses the Java Programming Language in the development of computer applications, web development, and other client and server-side requirements. </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="ri-crop-line"></i>
+                <h2> Web Development </h2>
+                <p>Web technology makes it easy and quick to produce dynamic web content. Understanding the concept of establishing communication between many computer systems via markup languages requires a greater understanding of Web technologies.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="ri-database-2-line"></i>
+                <h2> Data Base developer </h2>
+                <p>A database is an organized collection of structured information or datathat is typically stored electronically on a computer system. A database is usually controlled by a database management system (DBMS).</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------------portfolio------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="PortfolioImages/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from the play store.</p>
+                        <a href="#"><i class="ri-external-link-line"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="PortfolioImages/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Social Media Website</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Search it on any search ingen.</p>
+                        <a href="#"><i class="ri-external-link-line"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="PortfolioImages/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from the play store.</p>
+                        <a href="#"><i class="ri-external-link-line"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- ----------Contect form------ -->
+<div id="contact">
+<div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="ri-send-plane-fill"></i>saurabhginnare563@gmail.com</p>
+            <p><i class="ri-phone-fill"></i>9691012574</p>
+<div class="social-icons">
+    <a href="https://www.facebook.com/home.php"><i class="ri-facebook-circle-fill"></i></a>
+    <a href="https://www.instagram.com/"><i class="ri-instagram-fill"></i></a>
+    <a href="https://www.linkedin.com/feed/"><i class="ri-linkedin-box-fill"></i></a>
+    <a href="https://github.com/"><i class="ri-github-fill"></i></a>
+    <a href="#"><i class="ri-twitter-fill"></i></a>
+</div>
+<a href="PortfolioImages/RESUME SAURABH.pdf" download class="btn btn2">Download Resume/CV</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet"> 
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" id="" rows="8" placeholder="Your Message" ></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+</div>
+
+</div>
+    <script src="portfolio.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxHjI5XfZIBpRg4R8KQpZwrVhYfBpXD6RmMworIsZh8YIAwSeRzSj6F6Mer5AHvLE5-/exec'
+        const form = document.forms['submit-to-google-sheet']
+         const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML= "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
